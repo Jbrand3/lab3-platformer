@@ -90,21 +90,31 @@ Run Project: **F5** (**Cmd+B** on Mac) · Run Current Scene: **F6** (**Cmd+R**) 
 
 > [Replace this line with a screenshot. Commit an image to the repo and embed
 > it: `![screenshot](shot.png)`]
+> <img width="1920" height="1032" alt="Screenshot 2026-10-02 161711" src="https://github.com/user-attachments/assets/45d54fe5-8df0-4d40-a73c-d0855d94c6bd" />
+<img width="1122" height="648" alt="Screenshot 2026-10-02 161655" src="https://github.com/user-attachments/assets/7bf73381-ebab-41b3-8a96-0ec2714b6cfb" />
+
 
 **My states:**
-
+I used the included idle, jump and run states to reflect our sprite while we were moving. 
 > [List your states and, in a sentence, what each one owns. If you added a
 > state beyond the required three, say what made it earn its keep.]
 
 **My custom feature(s):**
 
 > [What did you add or change to make it yours? A sentence or two each.]
+> I included six total spikes and a death count. I also edited the jumping ability to make it so the sprite is just barely able to make it through the map. Just a bit of difficulty increase by ensuring the sprite cannot jump too high. 
 
 **My layer map:**
 
 > [In one or two sentences: which layers exist in your game, and who masks
 > whom? Explaining this is part of the lab.]
+> The first layer is the world which does not mask anything.
+> The next is our player who mask the world by seeing if there is anything for it collide with.
+> The next is the spike or hazards which mask the player, looking for circumstances where the player enters the area space
+> The last is the flag or goal which also mask by the player, for the same collision check. 
 
 **One thing that surprised me:**
 
 > [A bug, a behavior, a Godot thing. What did you not expect?]
+>I don't recall many bugs? I struggled a bit with the gravity adjustments a bit. 
+
